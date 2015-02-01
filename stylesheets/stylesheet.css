@@ -355,7 +355,8 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  /*background: #f2f2f2;*/
+  background: url(../images/img.jpg);
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
