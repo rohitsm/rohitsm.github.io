@@ -2,8 +2,7 @@
 layout: post
 title:  "My 2018 Reading Challenge"
 date:   2019-01-17 15:03:48 +0800
-categories: Book Review, Personal
-tags: [hot, summer]
+tags: [Book Review, Personal]
 ---
 
 ![Post Banner](/assets/images/2018-reading-challenge-banner.png)

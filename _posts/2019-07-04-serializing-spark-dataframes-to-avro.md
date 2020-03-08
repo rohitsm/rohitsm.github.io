@@ -2,7 +2,7 @@
 layout: post
 title:  "Serializing Spark Dataframes to Avro using KafkaAvroSerializer"
 date:   2019-07-04 15:03:48 +0800
-categories: Apache Spark, Apache Kafka, Confluent Schema Registry
+tags: [Apache Spark, Apache Kafka, Confluent Schema Registry]
 ---
 I recently worked on a project that used Spark Structured Streaming using Apache Spark, Confluent SchemaRegistry and Apache Kafka. Due to some versioning constraints between the various components, I had to write a custom implementation of the KafkaAvroSerializer class for serializing Spark Dataframes into Avro format. The serialized data was then published to Kafka. This post is based on the examples specified in the Confluent documentation here.
 

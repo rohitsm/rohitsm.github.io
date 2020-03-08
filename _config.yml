@@ -29,14 +29,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rohitsm
 github_username:  rohitsm
 linkedin_username:  rohitsm
-excerpt_separator: <!--more-->
+#excerpt_separator: <!--more-->
 
 # Pagination settings
-paginate: 1
+paginate: 3
 paginate_path: "/page:num/"
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
 
