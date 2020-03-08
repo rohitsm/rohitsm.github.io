@@ -72,3 +72,7 @@ producer.flush()
 producer.close()
 {% endhighlight %}
 
+#### Supplementary: Code snippet
+
+{% gist 03265db8c3e0f6ba34679074de418a79 %}
+
