@@ -27,12 +27,12 @@ $border-color: $gray-2 !default;
 $border-radius: 300px !default;
 $padding-v: 1em !default;
 $padding-h: 1.5em !default;
-$heading-spacing: 0.5rem !default;
-$section-spacing: 2rem !default;
+$heading-spacing: 1.25rem !default;
+$section-spacing: 3rem !default;
 $sidebar-width: 18rem !default;
 
 $large-breakpoint: 49rem !default;
-$large-font-size: 1.25rem !default;
+$large-font-size: 1.15rem !default;
 
 $box-shadow-size: 1px !default;
 $box-shadow-opacity: 0.16 !default;
@@ -44,7 +44,7 @@ $code-color: #bf616a !default;
 // Hyde theming
 $sidebar-bg-color: #202020 !default;
 $sidebar-fg-color: #fff !default;
-$sidebar-sticky: true !default;
+$sidebar-sticky: false !default;
 $layout-reverse: false !default;
 
 $sidebar-title-color: $sidebar-fg-color !default;
