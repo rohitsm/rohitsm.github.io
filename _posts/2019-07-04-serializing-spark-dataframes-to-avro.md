@@ -41,10 +41,10 @@ In the implementation detailed below, we first define the required `CachedSchema
 
 {% highlight scala %}
 df.foreachPartition(currentPartition => {
-val client = new CachedSchemaRegistryClient("http://localhost:80/", Integer.MAX_VALUE)
-val schema = client.getLatestSchemaMetadata("YOUR_SUBJECT_NAME-value").getSchema
-val schemaParser = new Schema.Parser
-val parsedSchema = schemaParser.parse(schema)
+   val client = new CachedSchemaRegistryClient("http://localhost:80/", Integer.MAX_VALUE)
+   val schema = client.getLatestSchemaMetadata("YOUR_SUBJECT_NAME-value").getSchema
+   val schemaParser = new Schema.Parser
+   val parsedSchema = schemaParser.parse(schema)
 })
 {% endhighlight %}
 
@@ -64,9 +64,9 @@ One of the side effects of using the `KafkaAvroSerializer` is that it attempts t
 
 {% highlight scala %}
 currentPartition.foreach(row > {
-val avroRecord = new GenericData.Record(parsedSchema)
-val serializedMessage = serializer.serialize(key, avroRecord)
-producer.send(new ProducerRecord[String, Array[Byte]](KAFKA_TOPIC_NAME, key, serializedMessage))
+   val avroRecord = new GenericData.Record(parsedSchema)
+   val serializedMessage = serializer.serialize(key, avroRecord)
+   producer.send(new ProducerRecord[String, Array[Byte]](KAFKA_TOPIC_NAME, key, serializedMessage))
 })
 producer.flush()
 producer.close()
