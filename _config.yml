@@ -34,10 +34,11 @@ navigation:
 external:                    # see http://fontawesome.com/icons
   - {title: Twitter, icon: twitter, url: "https://twitter.com/rohitsm"}
   - {title: Github, icon: github, url: "https://github.com/rohitsm"}
+  - {title: Goodreads, icon: goodreads, url: "https://www.goodreads.com/rohitsm"}
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/rohitsm"}
 
 comments:
-#  disqus_shortname: ""      # see https://disqus.com/
+ disqus_shortname: "rohitsm-com"      # see https://disqus.com/
 #  isso_domain: ""           # see https://posativ.org/isso/
 
 plugins:
