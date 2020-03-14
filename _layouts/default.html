@@ -20,7 +20,7 @@
 <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
 <script defer src="{{ "/assets/katex/contrib/mathtex-script-type.min.js" | relative_url }}"></script>
 {% endif %}
-
+<head> {% include analytics.html %} </head>
 <header class="icons">
   {% unless site.show_title != true and site.navigation and site.external %}
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
