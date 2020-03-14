@@ -29,7 +29,8 @@ excerpt_separator: <!--more-->
 
 navigation:
   - {file: "about.md", icon: info, title: "About"}
-  - {file: "index.html", icon: blog, title: Blog}
+  - {file: "index.html", icon: blog, title: "Blog"}
+  - {file: "archive.html", icon: archive, title: "Archives"}
 
 external:                    # see http://fontawesome.com/icons
   - {title: Twitter, icon: twitter, url: "https://twitter.com/rohitsm"}
