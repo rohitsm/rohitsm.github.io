@@ -8,4 +8,4 @@ Hi, my name is Rohit Menon and I am a senior software engineer at Rakuten Inc. i
 
 Prior to Rakuten, I was a student at Nanyang Technological University from where I received my bachelor's degree in computer science. Before that I was a student at Temasek Polytechnic from where I graduated with a diploma in electronics with merit.
 
-On the web, I tend to use `rohitsm` as my handle of choice, whenever and wherever it is available. I occasionally blog when I can't fit things into 140 or so characters. Outside of work, whenever I code, I occasionally share them on Github.
+I occasionally blog when I can't fit things into 140 or so characters on [Twitter](https://twitter.com/rohitsm). Outside of work, whenever I code, I occasionally share them on [Github](https://github.com/rohitsm).
