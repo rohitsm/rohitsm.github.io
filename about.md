@@ -8,7 +8,7 @@ Hi and thanks for visiting my blog!
 
 My name is Rohit Menon and I am a software engineer at Apple Inc. in Singapore. I am interested in computer science and its applications especially in distributed systems and most of my work has been centered around building systems for handling large volumes of data and computation. 
 
-Prior to joining Apple, I used to be a software engineer at Rakuten Inc. at the company's Singapore office. Before Rakuten, I was a student at Nanyang Technological University from where I received my Bachelor's degree in Computer Science. Before that I was a student at Temasek Polytechnic from where I graduated with a Diploma in Electronics with Merit. My [LinkedIn](https://www.linkedin.com/in/rohitsm) page has more details on my professional journey.
+Prior to joining Apple, I used to be a software engineer at Rakuten Inc. at the company's Singapore office. Before Rakuten, I was a student at Nanyang Technological University from where I received my Bachelor's degree in Computer Science. My [LinkedIn](https://www.linkedin.com/in/rohitsm) page has more details on my professional journey.
 
 I occasionally blog when I can't fit things into 140 or so characters on [Twitter](https://twitter.com/rohitsm) and I sometimes share code on [Github](https://github.com/rohitsm). 
 
